@@ -8,7 +8,12 @@ import Nss from './components/Unit/Nss';
 import Home from "./components/Home";
 import PromptTechies from "./components/Clubs/PromptTechies";
 import Hsga from "./components/Unit/Hsga";
-import AllEvents from './components/Events/AllEvents';
+
+import AllEvents from "./components/Events/AllEvents";
+import Cultural from "./components/Events/Cultural";
+import Technical from "./components/Events/Tech";
+import Unit from "./components/Events/Unit";
+import OtherClg from "./components/Events/OtherClgs";
 
 function App() {
   return (
@@ -26,6 +31,10 @@ function App() {
         <Route path="/units/Hsga" element={<Hsga/>} />
 
         <Route path="/Events/AllEvents" element={<AllEvents />} />
+        <Route path="/Events/Cultural" element={<Cultural />} />
+        <Route path="/Events/Technical" element={<Technical />} />
+        <Route path="/Events/Units" element={<Unit />} />
+        <Route path="/Events/OtherClg" element={<OtherClg />} />
 
         <Route path="/about" element={<About />} />
         

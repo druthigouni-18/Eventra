@@ -33,9 +33,10 @@ function NavBar() {
                 <li className="nav-item dropdown ">
                 <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Events</Link>
                 <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" to="/Events/AllEvents">Cultural</Link></li>
-                    <li><Link className="dropdown-item" to="/Events/AllEvents">Tech</Link></li>
-                    <li><Link className="dropdown-item" to="/Events/AllEvents">Units</Link></li>
+                    <li><Link className="dropdown-item " to="/Events/Cultural">Cultural</Link></li>
+                    <li><Link className="dropdown-item" to="/Events/Tech">Tech</Link></li>
+                    <li><Link className="dropdown-item" to="/Events/Unit">Units</Link></li>
+                    <li><Link className="dropdown-item"  to="/Events/OtherClgs">Other Clgs</Link></li>
                     <li><Link className="dropdown-item"  to="/Events/AllEvents">All</Link></li>
                 </ul>
                 </li>
