@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/NavBar';
 import Club from './components/Clubs/Club';
 import About from './components/About';
+import Calendar from './components/Calendar';
 import Units from './components/Unit/Units';
 import Nss from './components/Unit/Nss';
 import Home from "./components/Home";
@@ -37,6 +38,7 @@ function App() {
         <Route path="/Events/OtherClg" element={<OtherClg />} />
 
         <Route path="/about" element={<About />} />
+        <Route path="/calendar" element={<Calendar />} />
         
       </Routes>
 
